@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body { 
+    background-color: #A8E0FF;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: #3E517A;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h3 {
+    color: #363635;
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #363635;
+    text-align: center;
+}
+
+#dedicado {
+    color: #363635;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#equipe {
+    color: #363635;
+    text-align: justify;
+    font-size: 14px;
+}
+
+#aprender {
+    color: #363635;
+    text-align: justify;
+    font-size: 13px;
+}
+
+#curioso {
+    color: #363635;
+    text-align: justify;
+    font-size: 12px;
+}
+
+#ajudar {
+    color: #363635;
+    text-align: justify;
+    font-size: 11px;
+}
+
+#MinhasHabilidades {
+    text-align: justify;
+}
