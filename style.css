@@ -39,22 +39,31 @@ img {
 
 h3 {
     color: #363635;
-    position: absolute;
-    z-index: 5;
+    position: relative;
     top: 430px;
     left: 10px;
+    text-align: center;
 }
 
 ol {
     color: #363635;
-    position: absolute;
+    /* position: absolute; */
     z-index: 6;
-    top: 460px;
-    left: 10px;
+    /* top: 460px; */
+    /* left: 730px;  */
+    padding-left: 0;
+    /* text-align: center; */
+    border: 2px solid black;
+    margin: 460px auto;
+    width: 100px;
 }
 
 ol li:nth-child(odd) {
     font-style: italic;
+}
+
+ol li {
+    list-style-position: inside;
 }
 
 p {
@@ -66,18 +75,26 @@ p {
     left: 10px;
 }
 
-a {
-    color: #363635;;
-    position: absolute;
-    z-index: 8;
-    top: 600px;
-    left: 20px;
+.list.style {
+    margin: 0 auto;
 }
 
 .links {
     color: #363635;
-    position:relative;
-    z-index: 9;
-    top: 30px;
+    position: absolute;
+    z-index: 8;
+    top: 600px;
     left: 10px;
+    text-align: justify;
+    border: 2px solid black;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #363635;
+    height: 20px;
+    width: 200px;
+    margin: 10 auto;
+    
 }
